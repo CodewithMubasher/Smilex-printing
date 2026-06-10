@@ -229,7 +229,7 @@ const Team = () => {
               </div>
             </motion.div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 w-full">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 w-full">
               {teamData?.map((value, index) => {
                 return (
                   <motion.div
@@ -244,12 +244,12 @@ const Team = () => {
                     }}
                     className="group flex flex-col items-start gap-4 border border-border/60 hover:border-border rounded-xl p-3 sm:p-4 lg:p-5 bg-background transition-all duration-300 hover:shadow-sm"
                   >
-                    <div className="relative w-full h-32 sm:h-48 lg:h-56 overflow-hidden rounded-lg">
+                    <div className="relative w-full h-32 sm:h-48 lg:h-64 overflow-hidden rounded-lg">
                       <img
                         src={value.image}
                         alt={value.name}
-                        height={190}
-                        width={270}
+                        height={280}
+                        width={400}
                         className="w-full h-full object-cover"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-end p-3">
