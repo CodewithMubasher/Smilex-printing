@@ -63,6 +63,7 @@ const ContactForm = () => {
                 {/* form inputs */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-4">
                   <div>
+                    <label htmlFor="firstName" className="sr-only">First name</label>
                     <Input
                       id="firstName"
                       name="firstName"
@@ -74,6 +75,7 @@ const ContactForm = () => {
                     />
                   </div>
                   <div>
+                    <label htmlFor="lastName" className="sr-only">Last name</label>
                     <Input
                       id="lastName"
                       name="lastName"
@@ -87,6 +89,7 @@ const ContactForm = () => {
                 </div>
 
                 <div>
+                  <label htmlFor="email" className="sr-only">Email address</label>
                   <Input
                     id="email"
                     name="email"
@@ -100,6 +103,7 @@ const ContactForm = () => {
                 </div>
 
                 <div>
+                  <label htmlFor="country" className="sr-only">Country</label>
                   <Select
                     value={formData.country}
                     onValueChange={(value) =>
@@ -127,6 +131,7 @@ const ContactForm = () => {
                 </div>
 
                 <div>
+                  <label htmlFor="message" className="sr-only">Message</label>
                   <Textarea
                     id="message"
                     name="message"

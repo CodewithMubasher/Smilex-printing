@@ -72,9 +72,9 @@ const teamData: team = [
     role: "Logos, Branding & Digital Art",
     image: serviceImages[0].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -82,9 +82,9 @@ const teamData: team = [
     role: "Custom Standees & Brochure Design",
     image: serviceImages[1].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -92,9 +92,9 @@ const teamData: team = [
     role: "Elegant Invitations & Stationery",
     image: serviceImages[2].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -102,9 +102,9 @@ const teamData: team = [
     role: "High-Speed B/W & Color Copies",
     image: serviceImages[3].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -112,9 +112,9 @@ const teamData: team = [
     role: "Premium Business Card Printing",
     image: serviceImages[4].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -122,9 +122,9 @@ const teamData: team = [
     role: "Custom Digital Stamp Design",
     image: serviceImages[5].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -132,9 +132,9 @@ const teamData: team = [
     role: "Custom Frames & Preserve Memories",
     image: serviceImages[6].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -142,9 +142,9 @@ const teamData: team = [
     role: "Convert VCR Tapes to Digital USB",
     image: serviceImages[7].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -152,9 +152,9 @@ const teamData: team = [
     role: "Professional Photo Shooting",
     image: serviceImages[8].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -162,9 +162,9 @@ const teamData: team = [
     role: "Professional Book Binding Service",
     image: serviceImages[9].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -172,9 +172,9 @@ const teamData: team = [
     role: "High-Quality Panaflex & Flex Printing",
     image: serviceImages[10].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
   {
@@ -182,9 +182,9 @@ const teamData: team = [
     role: "Professional Visa & Passport Photos",
     image: serviceImages[11].src,
     socials: [
-      { icon: <InstagramIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <DribbbleIcon size={16} />, link: "https://instagram.com/smilexprinting" },
-      { icon: <LinkedinIcon size={16} />, link: "https://instagram.com/smilexprinting" },
+      { icon: <InstagramIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <DribbbleIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
+      { icon: <LinkedinIcon size={16} />, link: "https://www.instagram.com/smilex_pk/" },
     ],
   },
 ];

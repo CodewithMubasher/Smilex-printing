@@ -107,7 +107,7 @@ const Footer = () => {
                 {/* social links */}
                 <div className="flex items-center gap-4">
                   <a
-                    href="https://instagram.com/smilexprinting"
+                    href="https://www.instagram.com/smilex_pk/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-foreground"
@@ -115,7 +115,7 @@ const Footer = () => {
                     <InstagramIcon />
                   </a>
                   <a
-                    href="https://wa.me/923325156123"
+                    href="https://www.facebook.com/smilex.isb/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-foreground"
@@ -123,7 +123,9 @@ const Footer = () => {
                     <TwitterIcon />
                   </a>
                   <a
-                    href="#contact"
+                    href="https://wa.me/923325156123"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-foreground"
                   >
                     <LinkedinIcon />
@@ -164,7 +166,7 @@ const Footer = () => {
                 <ul className="flex flex-col gap-3">
                   <li>
                     <p className="text-base font-normal text-muted-foreground">
-                      PWD Islamabad
+                      Ground Floor, Javed Plaza, Main PWD Rd, behind D.Watson, D Block D PWD Society, Islamabad, 44000
                     </p>
                   </li>
                   <li>
@@ -189,7 +191,7 @@ const Footer = () => {
           </div>
           <Separator orientation="horizontal" />
           <p className="text-sm font-normal text-muted-foreground text-center animate-in fade-in slide-in-from-bottom-10 duration-1000 delay-100 ease-in-out fill-mode-both">
-            ©2026 Smilex Printing Shop. All Rights Reserved
+            ©2026 Smilex Digital Printing & Designing. All Rights Reserved
           </p>
         </div>
       </div>

@@ -72,7 +72,7 @@ const AboutUs = ({
             }}
             className="flex flex-col items-center justify-center gap-4"
           >
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-foreground text-center tracking-tight">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-foreground text-center tracking-tight mt-14 sm:mt-20">
               Vibrant designs, high-quality prints — making your brand stand out.
             </h2>
             <div className="flex flex-wrap items-center justify-center gap-x-1.5 gap-y-2 sm:gap-x-2 sm:gap-y-4">

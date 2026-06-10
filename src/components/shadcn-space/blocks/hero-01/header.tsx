@@ -80,12 +80,12 @@ const Header = ({ navigationData, className }: HeaderProps) => {
         {/* Logo */}
         <div>
           <a href="#home">
-            <Image src={logoImg} alt="Logo" width={110} height={30} className="object-contain" />
+            <Image src={logoImg} alt="Smilex Digital Printing & Designing" width={110} height={30} className="object-contain" />
           </a>
         </div>
 
         {/* Desktop Navigation */}
-        <div>
+        <nav>
           <NavigationMenu className="max-lg:hidden bg-muted p-0.5 rounded-full">
             <NavigationMenuList className="flex gap-0">
               {navigationData.map((navItem) => (
@@ -100,7 +100,7 @@ const Header = ({ navigationData, className }: HeaderProps) => {
               ))}
             </NavigationMenuList>
           </NavigationMenu>
-        </div>
+        </nav>
 
         {/* Desktop CTA */}
         <div className="flex gap-4">
@@ -125,7 +125,7 @@ const Header = ({ navigationData, className }: HeaderProps) => {
               >
                 <div className="flex items-center justify-between p-6">
                   <a href="#home">
-                    <Image src={logoImg} alt="Logo" width={147} height={40} className="object-contain" />
+            <Image src={logoImg} alt="Smilex Digital Printing & Designing" width={147} height={40} className="object-contain" />
                   </a>
                   <SheetClose id="mobile-menu-close">
                     <span className="rounded-full border border-border p-2.5 block">
@@ -177,9 +177,9 @@ const Header = ({ navigationData, className }: HeaderProps) => {
                   <div className="mt-auto flex flex-col gap-4">
                     <div className="flex gap-3">
                       {[
-                        { icon: "lucide:instagram", href: "https://instagram.com/smilexprinting" },
+                        { icon: "lucide:instagram", href: "https://www.instagram.com/smilex_pk/" },
                         { icon: "lucide:message-circle", href: "https://wa.me/923325156123" },
-                        { icon: "lucide:twitter", href: "#home" },
+                        { icon: "lucide:facebook", href: "https://www.facebook.com/smilex.isb/" },
                         { icon: "lucide:map-pin", href: "#contact" },
                       ].map((item) => (
                         <a

@@ -1,6 +1,3 @@
-
-'use client'
-
 import AboutAndStats01 from '@/components/shadcn-space/blocks/about-us-01/index'
 import Contact from '@/components/shadcn-space/blocks/contact-01/index'
 import CTA from '@/components/shadcn-space/blocks/cta-01/cta'
@@ -13,7 +10,6 @@ import Team from '@/components/shadcn-space/blocks/team-02/team'
 export default function Page() {
   return (
     <div>
-
         <section id="home">
           <AgencyHeroSection />
         </section>
@@ -41,7 +37,6 @@ export default function Page() {
         <section>
           <Footer />
         </section>
-
     </div>
   )
 }
