@@ -23,15 +23,15 @@ const aboutusData = [
 const statisticsCounter = [
     {
         title: "Total Projects Completed",
-        count: 40
+        count: 7000
     },
     {
         title: "Years of Experience",
-        count: 10
+        count: 25
     },
     {
         title: "Satisfied Clients",
-        count: 500
+        count: 50000
     },
 ]
 

@@ -25,12 +25,10 @@ function HeroSection() {
                   transition={{ duration: 1, ease: "easeInOut" }}
                   className="lg:text-8xl md:text-7xl text-4xl sm:text-5xl font-medium leading-12 md:leading-20 lg:leading-24"
                 >
-                  Perfectly Printed and Designed{" "}
-                  <span
-                    className={`${instrumentSerif.className} tracking-tight`}
-                  >
-                    Your Vision
-                  </span>
+                  Perfectly Printing 
+                  &
+                  Designing{" "}
+                
                 </motion.h1>
                 <motion.p
                   initial={{ opacity: 0, y: 32 }}
@@ -47,10 +45,10 @@ function HeroSection() {
                 transition={{ duration: 1, delay: 0.2, ease: "easeInOut" }}
                 className="flex items-center flex-col md:flex-row justify-center gap-4 sm:gap-8"
               >
-                <a href="#contact">
+                <a href="#services">
                   <Button className="relative text-sm font-medium rounded-full h-12 p-1 ps-6 pe-14 group transition-all duration-500 hover:ps-14 hover:pe-6 w-fit overflow-hidden cursor-pointer bg-[#0690D4] text-white">
                     <span className="relative z-10 transition-all duration-500">
-                      Get Started
+                      View Products
                     </span>
                     <span className="absolute right-1 w-10 h-10 bg-background text-foreground rounded-full flex items-center justify-center transition-all duration-500 group-hover:right-[calc(100%-44px)] group-hover:rotate-45">
                       <ArrowUpRight size={16} />
@@ -68,7 +66,7 @@ function HeroSection() {
                       ))}
                     </div>
                     <p className="sm:text-sm text-xs font-normal text-muted-foreground">
-                      Trusted by 500+ clients
+                      Trusted by 500k+ clients
                     </p>
                   </div>
                 </div>
