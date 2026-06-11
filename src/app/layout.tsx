@@ -7,7 +7,7 @@ import { localBusinessSchema, organizationSchema, faqSchema, websiteSchema } fro
 
 const inter = Inter({ subsets: ["latin"] });
 
-const siteUrl = 'https://smilexprinting.vercel.app'
+const siteUrl = 'https://www.smilexprinting.com'
 const siteName = 'Smilex Digital Printing & Designing'
 
 export const viewport: Viewport = {

@@ -3,7 +3,7 @@ export const config = {
     process.env.NODE_ENV === "production"
       ? process.env.VERCEL_PROJECT_PRODUCTION_URL
         ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-        : (process.env.NEXT_PUBLIC_APP_URL ?? "https://smilexprinting.vercel.app")
+        : (process.env.NEXT_PUBLIC_APP_URL ?? "https://www.smilexprinting.com")
       : "http://localhost:3000",
   social: {
     facebook: "https://www.facebook.com/smilex.isb/",

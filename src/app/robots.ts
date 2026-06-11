@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://smilexprinting.vercel.app/sitemap.xml',
+    sitemap: 'https://www.smilexprinting.com/sitemap.xml',
   }
 }
