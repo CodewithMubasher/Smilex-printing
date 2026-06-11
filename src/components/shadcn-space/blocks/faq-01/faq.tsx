@@ -66,12 +66,10 @@ export default function Faq() {
                   index === 4 && "animate-in fade-in slide-in-from-bottom-4 duration-400 delay-200",
                 )}
               >
-                <h3>
-                  <AccordionTrigger className="p-0 text-sm sm:text-xl font-medium hover:no-underline **:data-[slot=accordion-trigger-icon]:hidden cursor-pointer">
-                    {faq.question}
-                    <PlusIcon className="w-6 h-6 shrink-0 transition-transform duration-200 group-aria-expanded/accordion-trigger:rotate-45" />
-                  </AccordionTrigger>
-                </h3>
+                    <AccordionTrigger className="p-0 text-sm sm:text-xl font-medium hover:no-underline **:data-[slot=accordion-trigger-icon]:hidden cursor-pointer">
+                      {faq.question}
+                      <PlusIcon className="w-6 h-6 shrink-0 transition-transform duration-200 group-aria-expanded/accordion-trigger:rotate-45" />
+                    </AccordionTrigger>
                 <AccordionContent className="p-0 text-muted-foreground text-sm sm:text-base">
                   {faq.answer}
                 </AccordionContent>

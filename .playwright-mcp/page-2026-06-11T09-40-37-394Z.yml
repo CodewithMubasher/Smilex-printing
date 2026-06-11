@@ -1,0 +1,424 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e7]:
+        - link "Smilex Digital Printing & Designing" [ref=e9] [cursor=pointer]:
+          - /url: "#home"
+          - img "Smilex Digital Printing & Designing" [ref=e10]
+        - navigation
+        - button "Menu" [ref=e13]:
+          - generic [ref=e14]:
+            - img [ref=e15]
+            - generic [ref=e16]: Menu
+      - main [ref=e17]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - heading "Perfectly Printing & Designing" [level=1] [ref=e24]
+            - paragraph [ref=e25]: We provide high-quality digital printing and creative design solutions to help businesses and individuals bring their ideas to life. From custom prints and branding materials to eye-catching graphics, we deliver precision, quality, and creativity in every project.
+          - generic [ref=e26]:
+            - link "View Products" [ref=e27] [cursor=pointer]:
+              - /url: "#services"
+              - button "View Products" [ref=e28]:
+                - generic [ref=e29]: View Products
+                - generic [ref=e30]:
+                  - img
+            - generic [ref=e32]:
+              - generic [ref=e33]:
+                - img [ref=e34]
+                - img [ref=e36]
+                - img [ref=e38]
+                - img [ref=e40]
+                - img [ref=e42]
+              - paragraph [ref=e44]: Trusted by 500k+ clients
+        - generic [ref=e49]:
+          - paragraph [ref=e53]: Providing 100+ Digital Printing and Design Services to Help You Bring Your Ideas to Life
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e59]: Stamps
+              - generic [ref=e61]: Photocopy
+              - generic [ref=e63]: Printing
+              - generic [ref=e65]: Design
+              - generic [ref=e67]: Binding
+              - generic [ref=e69]: Laminating
+              - generic [ref=e71]: Scanning
+              - generic [ref=e73]: Business Cards
+              - generic [ref=e75]: Flyers
+              - generic [ref=e77]: Brochures
+              - generic [ref=e79]: Posters
+              - generic [ref=e81]: Stickers
+              - generic [ref=e83]: Labels
+              - generic [ref=e85]: Envelopes
+              - generic [ref=e87]: Signage
+              - generic [ref=e89]: Embroidery
+              - generic [ref=e91]: Textile Printing
+              - generic [ref=e93]: Booklets
+              - generic [ref=e95]: Invitations
+              - generic [ref=e97]: Banners
+              - generic [ref=e99]: Large-format Printing
+              - generic [ref=e101]: Digital Printing
+              - generic [ref=e103]: Offset Printing
+              - generic [ref=e105]: Photo Printing
+              - generic [ref=e107]: UV Printing
+              - generic [ref=e109]: Heat Transfer
+              - generic [ref=e111]: Vehicle Wraps
+              - generic [ref=e113]: Promotional Items
+              - generic [ref=e115]: Packaging
+              - generic [ref=e117]: Stationery
+              - generic [ref=e119]: Exhibition Stands
+            - generic [ref=e120]:
+              - generic [ref=e122]: Stamps
+              - generic [ref=e124]: Photocopy
+              - generic [ref=e126]: Printing
+              - generic [ref=e128]: Design
+              - generic [ref=e130]: Binding
+              - generic [ref=e132]: Laminating
+              - generic [ref=e134]: Scanning
+              - generic [ref=e136]: Business Cards
+              - generic [ref=e138]: Flyers
+              - generic [ref=e140]: Brochures
+              - generic [ref=e142]: Posters
+              - generic [ref=e144]: Stickers
+              - generic [ref=e146]: Labels
+              - generic [ref=e148]: Envelopes
+              - generic [ref=e150]: Signage
+              - generic [ref=e152]: Embroidery
+              - generic [ref=e154]: Textile Printing
+              - generic [ref=e156]: Booklets
+              - generic [ref=e158]: Invitations
+              - generic [ref=e160]: Banners
+              - generic [ref=e162]: Large-format Printing
+              - generic [ref=e164]: Digital Printing
+              - generic [ref=e166]: Offset Printing
+              - generic [ref=e168]: Photo Printing
+              - generic [ref=e170]: UV Printing
+              - generic [ref=e172]: Heat Transfer
+              - generic [ref=e174]: Vehicle Wraps
+              - generic [ref=e176]: Promotional Items
+              - generic [ref=e178]: Packaging
+              - generic [ref=e180]: Stationery
+              - generic [ref=e182]: Exhibition Stands
+            - generic [ref=e183]:
+              - generic [ref=e185]: Stamps
+              - generic [ref=e187]: Photocopy
+              - generic [ref=e189]: Printing
+              - generic [ref=e191]: Design
+              - generic [ref=e193]: Binding
+              - generic [ref=e195]: Laminating
+              - generic [ref=e197]: Scanning
+              - generic [ref=e199]: Business Cards
+              - generic [ref=e201]: Flyers
+              - generic [ref=e203]: Brochures
+              - generic [ref=e205]: Posters
+              - generic [ref=e207]: Stickers
+              - generic [ref=e209]: Labels
+              - generic [ref=e211]: Envelopes
+              - generic [ref=e213]: Signage
+              - generic [ref=e215]: Embroidery
+              - generic [ref=e217]: Textile Printing
+              - generic [ref=e219]: Booklets
+              - generic [ref=e221]: Invitations
+              - generic [ref=e223]: Banners
+              - generic [ref=e225]: Large-format Printing
+              - generic [ref=e227]: Digital Printing
+              - generic [ref=e229]: Offset Printing
+              - generic [ref=e231]: Photo Printing
+              - generic [ref=e233]: UV Printing
+              - generic [ref=e235]: Heat Transfer
+              - generic [ref=e237]: Vehicle Wraps
+              - generic [ref=e239]: Promotional Items
+              - generic [ref=e241]: Packaging
+              - generic [ref=e243]: Stationery
+              - generic [ref=e245]: Exhibition Stands
+            - generic [ref=e246]:
+              - generic [ref=e248]: Stamps
+              - generic [ref=e250]: Photocopy
+              - generic [ref=e252]: Printing
+              - generic [ref=e254]: Design
+              - generic [ref=e256]: Binding
+              - generic [ref=e258]: Laminating
+              - generic [ref=e260]: Scanning
+              - generic [ref=e262]: Business Cards
+              - generic [ref=e264]: Flyers
+              - generic [ref=e266]: Brochures
+              - generic [ref=e268]: Posters
+              - generic [ref=e270]: Stickers
+              - generic [ref=e272]: Labels
+              - generic [ref=e274]: Envelopes
+              - generic [ref=e276]: Signage
+              - generic [ref=e278]: Embroidery
+              - generic [ref=e280]: Textile Printing
+              - generic [ref=e282]: Booklets
+              - generic [ref=e284]: Invitations
+              - generic [ref=e286]: Banners
+              - generic [ref=e288]: Large-format Printing
+              - generic [ref=e290]: Digital Printing
+              - generic [ref=e292]: Offset Printing
+              - generic [ref=e294]: Photo Printing
+              - generic [ref=e296]: UV Printing
+              - generic [ref=e298]: Heat Transfer
+              - generic [ref=e300]: Vehicle Wraps
+              - generic [ref=e302]: Promotional Items
+              - generic [ref=e304]: Packaging
+              - generic [ref=e306]: Stationery
+              - generic [ref=e308]: Exhibition Stands
+    - generic [ref=e312]:
+      - generic [ref=e313]:
+        - heading "Vibrant designs, high-quality prints — making your brand stand out." [level=2] [ref=e314]
+        - generic [ref=e315]:
+          - generic [ref=e316]:
+            - img [ref=e317]
+            - generic [ref=e320]: Creativity
+          - generic [ref=e321]:
+            - img [ref=e322]
+            - generic [ref=e324]: Innovation
+          - generic [ref=e325]:
+            - img [ref=e326]
+            - generic [ref=e330]: Precision
+      - generic [ref=e331]:
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - img [ref=e334]
+            - generic [ref=e335]: "0"
+          - paragraph [ref=e336]: Total Projects Completed
+        - generic [ref=e337]:
+          - generic [ref=e339]:
+            - img [ref=e340]
+            - generic [ref=e341]: "0"
+          - paragraph [ref=e342]: Years of Experience
+        - generic [ref=e343]:
+          - generic [ref=e345]:
+            - img [ref=e346]
+            - generic [ref=e347]: "0"
+          - paragraph [ref=e348]: Satisfied Clients
+    - generic [ref=e353]:
+      - generic [ref=e354]:
+        - generic [ref=e355]: Services
+        - generic [ref=e356]:
+          - heading "Our Services" [level=2] [ref=e357]
+          - paragraph [ref=e358]: From digital and offset printing to custom design, branding, and large-format production — we deliver quality solutions tailored to your business needs.
+        - generic [ref=e359]:
+          - generic [ref=e360]: Best Quality
+          - generic [ref=e361]: Competitive Rates
+          - generic [ref=e362]: Fast Services
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - generic [ref=e365]:
+            - img "Graphic Designing" [ref=e366]
+            - img [ref=e368]
+          - generic [ref=e370]:
+            - heading "Graphic Designing" [level=3] [ref=e371]
+            - paragraph [ref=e372]: Logos, Branding & Digital Art
+        - generic [ref=e373]:
+          - generic [ref=e374]:
+            - img "Standies & Brochures" [ref=e375]
+            - img [ref=e377]
+          - generic [ref=e379]:
+            - heading "Standies & Brochures" [level=3] [ref=e380]
+            - paragraph [ref=e381]: Custom Standees & Brochure Design
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - img "Wedding Cards" [ref=e384]
+            - img [ref=e386]
+          - generic [ref=e388]:
+            - heading "Wedding Cards" [level=3] [ref=e389]
+            - paragraph [ref=e390]: Elegant Invitations & Stationery
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - img "Photocopy" [ref=e393]
+            - img [ref=e395]
+          - generic [ref=e397]:
+            - heading "Photocopy" [level=3] [ref=e398]
+            - paragraph [ref=e399]: High-Speed B/W & Color Copies
+        - generic [ref=e400]:
+          - generic [ref=e401]:
+            - img "Business Cards" [ref=e402]
+            - img [ref=e404]
+          - generic [ref=e406]:
+            - heading "Business Cards" [level=3] [ref=e407]
+            - paragraph [ref=e408]: Premium Business Card Printing
+        - generic [ref=e409]:
+          - generic [ref=e410]:
+            - img "Digital Stamps" [ref=e411]
+            - img [ref=e413]
+          - generic [ref=e415]:
+            - heading "Digital Stamps" [level=3] [ref=e416]
+            - paragraph [ref=e417]: Custom Digital Stamp Design
+        - generic [ref=e418]:
+          - generic [ref=e419]:
+            - img "Photo Framing" [ref=e420]
+            - img [ref=e422]
+          - generic [ref=e424]:
+            - heading "Photo Framing" [level=3] [ref=e425]
+            - paragraph [ref=e426]: Custom Frames & Preserve Memories
+        - generic [ref=e427]:
+          - generic [ref=e428]:
+            - img "VCR to USB" [ref=e429]
+            - img [ref=e431]
+          - generic [ref=e433]:
+            - heading "VCR to USB" [level=3] [ref=e434]
+            - paragraph [ref=e435]: Convert VCR Tapes to Digital USB
+        - generic [ref=e436]:
+          - generic [ref=e437]:
+            - img "Photo Studio" [ref=e438]
+            - img [ref=e440]
+          - generic [ref=e442]:
+            - heading "Photo Studio" [level=3] [ref=e443]
+            - paragraph [ref=e444]: Professional Photo Shooting
+        - generic [ref=e445]:
+          - generic [ref=e446]:
+            - img "Book Binding" [ref=e447]
+            - img [ref=e449]
+          - generic [ref=e451]:
+            - heading "Book Binding" [level=3] [ref=e452]
+            - paragraph [ref=e453]: Professional Book Binding Service
+        - generic [ref=e454]:
+          - generic [ref=e455]:
+            - img "Panaflex Printing" [ref=e456]
+            - img [ref=e458]
+          - generic [ref=e460]:
+            - heading "Panaflex Printing" [level=3] [ref=e461]
+            - paragraph [ref=e462]: High-Quality Panaflex & Flex Printing
+        - generic [ref=e463]:
+          - generic [ref=e464]:
+            - img "Visa & Passport Pictures" [ref=e465]
+            - img [ref=e467]
+          - generic [ref=e469]:
+            - heading "Visa & Passport Pictures" [level=3] [ref=e470]
+            - paragraph [ref=e471]: Professional Visa & Passport Photos
+    - generic [ref=e474]:
+      - generic [ref=e475]:
+        - generic [ref=e476]: FAQs
+        - heading "Got questions? We've got answers" [level=2] [ref=e477]
+      - region [ref=e479]:
+        - generic [ref=e480]:
+          - heading [level=3]
+          - heading "What printing services do you offer?" [level=3] [ref=e481]:
+            - button "What printing services do you offer?" [ref=e482] [cursor=pointer]:
+              - text: What printing services do you offer?
+              - img [ref=e483]
+        - generic [ref=e484]:
+          - heading [level=3]
+          - heading "How long does a typical print job take?" [level=3] [ref=e485]:
+            - button "How long does a typical print job take?" [ref=e486] [cursor=pointer]:
+              - text: How long does a typical print job take?
+              - img [ref=e487]
+        - generic [ref=e488]:
+          - heading [level=3]
+          - heading "Do you offer bulk discounts?" [level=3] [ref=e489]:
+            - button "Do you offer bulk discounts?" [ref=e490] [cursor=pointer]:
+              - text: Do you offer bulk discounts?
+              - img [ref=e491]
+        - generic [ref=e492]:
+          - heading [level=3]
+          - heading "Can I get a proof before printing?" [level=3] [ref=e493]:
+            - button "Can I get a proof before printing?" [ref=e494] [cursor=pointer]:
+              - text: Can I get a proof before printing?
+              - img [ref=e495]
+        - generic [ref=e496]:
+          - heading [level=3]
+          - heading "What file formats do you accept?" [level=3] [ref=e497]:
+            - button "What file formats do you accept?" [ref=e498] [cursor=pointer]:
+              - text: What file formats do you accept?
+              - img [ref=e499]
+    - generic [ref=e503]:
+      - generic [ref=e505]:
+        - generic [ref=e506]:
+          - generic [ref=e507]: About Us
+          - heading "Your Trusted Partner for Printing & Design" [level=2] [ref=e508]
+          - paragraph [ref=e509]: At Smilex, we bring your ideas to life with top-quality printing and creative design solutions. From business cards and wedding invitations to large-format banners and custom branding, we deliver precision, quality, and creativity in every project.
+        - generic [ref=e510]:
+          - generic [ref=e511]: State-of-the-art digital & offset printing
+          - generic [ref=e512]: Expert graphic design team
+          - generic [ref=e513]: Fast turnaround with rush orders available
+          - generic [ref=e514]: Wide format & UV printing capabilities
+          - generic [ref=e515]: Custom branding & stationery solutions
+      - generic [ref=e519]:
+        - generic [ref=e521]: Send us a Message
+        - generic [ref=e524]:
+          - generic [ref=e525]:
+            - generic [ref=e526]:
+              - generic [ref=e527]:
+                - generic [ref=e528]: First name
+                - textbox "First name" [ref=e529]
+              - generic [ref=e530]:
+                - generic [ref=e531]: Last name
+                - textbox "Last name" [ref=e532]
+            - generic [ref=e533]:
+              - generic [ref=e534]: Email address
+              - textbox "Email address" [ref=e535]:
+                - /placeholder: youremail@website.com
+            - generic [ref=e536]:
+              - generic [ref=e537]: Country
+              - combobox "Country" [ref=e538]:
+                - img: ▼
+              - textbox [ref=e539]
+            - generic [ref=e540]:
+              - generic [ref=e541]: Message
+              - textbox "Message" [ref=e542]:
+                - /placeholder: Let us know about your project
+            - generic [ref=e543]:
+              - checkbox [ref=e544]
+              - checkbox [ref=e545]
+              - generic [ref=e546]: I have read and acknowledge the Terms and Conditions
+          - button "Send Message" [ref=e547]
+    - iframe [ref=e553]
+    - generic [ref=e557]:
+      - generic [ref=e558]:
+        - generic [ref=e560]:
+          - link "Smilex Printing Shop" [ref=e561] [cursor=pointer]:
+            - /url: "#home"
+            - img "Smilex Printing Shop" [ref=e562]
+          - paragraph [ref=e563]: Your trusted partner for high-quality printing and creative design solutions. Bringing your ideas to life with precision and care.
+          - generic [ref=e564]:
+            - link [ref=e565] [cursor=pointer]:
+              - /url: https://www.instagram.com/smilex_pk/
+              - img [ref=e566]
+            - link [ref=e569] [cursor=pointer]:
+              - /url: https://www.facebook.com/smilex.isb/
+              - img [ref=e570]
+            - link [ref=e572] [cursor=pointer]:
+              - /url: https://wa.me/923325156123
+              - img [ref=e573]
+        - generic [ref=e577]:
+          - paragraph [ref=e578]: Quick Links
+          - list [ref=e579]:
+            - listitem [ref=e580]:
+              - link "Home" [ref=e581] [cursor=pointer]:
+                - /url: "#home"
+            - listitem [ref=e582]:
+              - link "About Us" [ref=e583] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=e584]:
+              - link "Services" [ref=e585] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e586]:
+              - link "Contact" [ref=e587] [cursor=pointer]:
+                - /url: "#contact"
+        - generic [ref=e589]:
+          - paragraph [ref=e590]: Services
+          - list [ref=e591]:
+            - listitem [ref=e592]:
+              - link "Digital Printing" [ref=e593] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e594]:
+              - link "Graphic Design" [ref=e595] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e596]:
+              - link "Wedding Cards" [ref=e597] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e598]:
+              - link "Photo Framing" [ref=e599] [cursor=pointer]:
+                - /url: "#services"
+        - generic [ref=e601]:
+          - paragraph [ref=e602]: Contact Details
+          - list [ref=e603]:
+            - listitem [ref=e604]:
+              - paragraph [ref=e605]: Ground Floor, Javed Plaza, Main PWD Rd, behind D.Watson, D Block D PWD Society, Islamabad, 44000
+            - listitem [ref=e606]:
+              - link "smilex.isb@gmail.com" [ref=e607] [cursor=pointer]:
+                - /url: mailto:smilex.isb@gmail.com
+            - listitem [ref=e608]:
+              - link "0332 5156123" [ref=e609] [cursor=pointer]:
+                - /url: tel:+923325156123
+      - separator
+      - paragraph [ref=e610]: ©2026 Smilex Digital Printing & Designing. All Rights Reserved

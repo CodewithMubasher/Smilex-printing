@@ -69,7 +69,11 @@ export const metadata: Metadata = {
       'Premium digital printing, graphic design, wedding cards, photo framing and creative design solutions in Islamabad & Rawalpindi.',
     images: ['/logo.png'],
   },
-  category: 'printing',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
