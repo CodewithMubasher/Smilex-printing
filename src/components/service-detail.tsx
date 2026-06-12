@@ -2,7 +2,7 @@
 import { motion } from "motion/react";
 import { ChevronRight, Check, Package, Clock, Zap } from "lucide-react";
 import Link from "next/link";
-import { servicesData } from "@/data/services";
+import { Service } from "@/data/services";
 import img1 from "@/assets/img1.png";
 import img2 from "@/assets/img2.png";
 import img3 from "@/assets/img3.png";
@@ -19,25 +19,10 @@ import img12 from "@/assets/img12.png";
 const serviceImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12];
 
 interface ServiceDetailProps {
-  slug: string;
+  service: Service;
 }
 
-export default function ServiceDetail({ slug }: ServiceDetailProps) {
-  const service = servicesData.find((s) => s.slug === slug);
-
-  if (!service) {
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold text-foreground mb-4">Service Not Found</h1>
-          <Link href="/" className="text-blue-600 hover:text-blue-700">
-            Return to Home
-          </Link>
-        </div>
-      </div>
-    );
-  }
-
+export default function ServiceDetail({ service }: ServiceDetailProps) {
   const mainImage = serviceImages[service.image - 1];
   const galleryImages = service.gallery.map((idx) => serviceImages[idx - 1]);
 
