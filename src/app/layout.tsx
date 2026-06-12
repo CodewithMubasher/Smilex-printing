@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import Script from 'next/script'
 import type { ReactNode } from 'react'
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 import { localBusinessSchema, organizationSchema, faqSchema, websiteSchema } from '@/lib/schema'
 
 const inter = Inter({ subsets: ["latin"] });
@@ -88,6 +89,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {children}
         </main>
 
+        <Analytics />
         <Script
           id="local-business-schema"
           type="application/ld+json"
