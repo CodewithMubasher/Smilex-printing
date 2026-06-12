@@ -1,5 +1,6 @@
 import { servicesData } from "@/data/services";
 import ServiceDetail from "@/components/service-detail";
+import { notFound } from "next/navigation";
 
 interface ServicePageProps {
   params: Promise<{
@@ -17,13 +18,25 @@ export async function generateMetadata({ params }: ServicePageProps) {
   const { slug } = await params;
   const service = servicesData.find((s) => s.slug === slug);
   
+  if (!service) {
+    return {
+      title: "Service Not Found | Smilex Printing",
+    };
+  }
+
   return {
-    title: `${service?.name || "Service"} | Smilex Printing`,
-    description: service?.description || "Professional printing and design services",
+    title: `${service.name} | Smilex Printing`,
+    description: service.description,
   };
 }
 
 export default async function ServicePage({ params }: ServicePageProps) {
   const { slug } = await params;
-  return <ServiceDetail slug={slug} />;
+  const service = servicesData.find((s) => s.slug === slug);
+
+  if (!service) {
+    notFound();
+  }
+
+  return <ServiceDetail service={service} />;
 }
