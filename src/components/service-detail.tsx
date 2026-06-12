@@ -67,7 +67,7 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
           className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center"
         >
           {/* Main Image */}
-          <div className="relative h-96 sm:h-96 lg:h-full rounded-xl overflow-hidden">
+          <div className="relative h-96 sm:h-96 lg:h-full rounded-xl overflow-hidden shadow-xl">
             <img
               src={mainImage.src}
               alt={service.name}
@@ -96,8 +96,8 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-4">
               <motion.div
-                whileHover={{ scale: 1.02 }}
-                className="p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg"
+                whileHover={{ scale: 1.02, y: -5 }}
+                className="p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800 shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="flex items-center gap-2 mb-2">
                   <Clock className="w-5 h-5 text-blue-600" />
@@ -107,8 +107,8 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
               </motion.div>
 
               <motion.div
-                whileHover={{ scale: 1.02 }}
-                className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg"
+                whileHover={{ scale: 1.02, y: -5 }}
+                className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800 shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="flex items-center gap-2 mb-2">
                   <Package className="w-5 h-5 text-green-600" />
@@ -125,7 +125,7 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors w-full sm:w-auto shadow-lg"
             >
               <Zap className="w-5 h-5" />
               Get Started
@@ -159,12 +159,13 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.05 }}
-              className="aspect-square rounded-lg overflow-hidden hover:shadow-lg transition-shadow cursor-pointer"
+              whileHover={{ scale: 1.08, y: -8 }}
+              className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all cursor-pointer border border-border/50"
             >
               <img
                 src={img.src}
                 alt={`${service.name} Gallery ${idx + 1}`}
-                className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                className="w-full h-full object-cover"
               />
             </motion.div>
           ))}
@@ -196,7 +197,8 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="flex items-start gap-4 p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg hover:shadow-md transition-shadow"
+              whileHover={{ x: 5, y: -3 }}
+              className="flex items-start gap-4 p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800 hover:shadow-lg transition-all"
             >
               <Check className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
               <span className="text-foreground font-medium">{feature}</span>
@@ -230,8 +232,8 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.15 }}
-              whileHover={{ y: -5 }}
-              className="p-6 border border-border rounded-xl hover:shadow-lg transition-shadow"
+              whileHover={{ y: -8, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.15)" }}
+              className="p-6 border border-border rounded-xl shadow-sm hover:shadow-xl transition-all bg-gradient-to-br from-white to-blue-50 dark:from-slate-950 dark:to-blue-950/20"
             >
               <h3 className="text-xl font-bold text-foreground mb-2">{plan.plan}</h3>
               <p className="text-sm text-muted-foreground mb-4">{plan.details}</p>
@@ -239,7 +241,7 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
                 <span className="text-3xl font-bold text-blue-600">{plan.price}</span>
                 <span className="text-muted-foreground">PKR</span>
               </div>
-              <button className="w-full px-4 py-2 border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white rounded-lg font-semibold transition-colors">
+              <button className="w-full px-4 py-2 border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white rounded-lg font-semibold transition-all hover:shadow-md">
                 Select Plan
               </button>
             </motion.div>
@@ -272,7 +274,8 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.08 }}
-              className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-900 text-center hover:shadow-md transition-shadow"
+              whileHover={{ scale: 1.05, y: -3 }}
+              className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-900 text-center hover:shadow-lg transition-all"
             >
               <p className="font-semibold text-foreground">{size}</p>
             </motion.div>
@@ -307,9 +310,10 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="flex gap-4 items-start"
+                  whileHover={{ x: 5 }}
+                  className="flex gap-4 items-start p-3 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-950/20 transition-colors"
                 >
-                  <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold flex-shrink-0">
+                  <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold flex-shrink-0 shadow-md">
                     {idx + 1}
                   </div>
                   <p className="text-foreground pt-1">{step}</p>
@@ -328,10 +332,13 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
             <p className="text-muted-foreground mb-6 leading-relaxed">
               {service.comprehensive.description}
             </p>
-            <div className="p-4 bg-purple-50 dark:bg-purple-950/30 rounded-lg">
+            <motion.div 
+              whileHover={{ y: -3 }}
+              className="p-4 bg-purple-50 dark:bg-purple-950/30 rounded-lg border border-purple-200 dark:border-purple-800 shadow-sm hover:shadow-md transition-all"
+            >
               <p className="text-sm font-semibold text-foreground mb-2">Tools & Equipment:</p>
               <p className="text-sm text-muted-foreground">{service.comprehensive.tools}</p>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -342,7 +349,8 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 sm:p-12 text-center text-white"
+          whileHover={{ y: -5 }}
+          className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 sm:p-12 text-center text-white shadow-xl hover:shadow-2xl transition-all"
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-lg text-blue-100 mb-6 max-w-2xl mx-auto">
@@ -355,7 +363,7 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition-colors"
+              className="px-8 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-lg hover:shadow-xl"
             >
               Contact via WhatsApp
             </motion.a>
@@ -381,7 +389,7 @@ export default function ServiceDetail({ slug }: ServiceDetailProps) {
         >
           <Link
             href="/#services"
-            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
+            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors hover:gap-3"
           >
             <ChevronRight className="w-5 h-5 rotate-180" />
             Back to All Services
